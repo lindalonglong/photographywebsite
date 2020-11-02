@@ -3,7 +3,7 @@
 def setup():
     #Person Data
     name = "Team FruityCoders"
-    github = "https://github.com/nighthawkcoders"
+    github = "https://github.com/lindalonglong/photographywebsite"
     linkedin = "https://www.linkedin.com/in/john-mortensen-1021/"
     youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber"
     twitter = "https://twitter.com/NighthawkCoding"

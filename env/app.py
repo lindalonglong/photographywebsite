@@ -1,15 +1,8 @@
 from flask import Flask
 
 from flask import Flask, render_template,redirect,url_for
-from flask_bootstrap import Bootstrap
-from flask_wtf import FlaskForm
-from wtforms import Form, BooleanField, StringField, PasswordField
-from wtforms.validators import InputRequired,Email,Length
-from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
+from env import projects
 
-
-import projects
 
 
 app = Flask(__name__)
@@ -25,4 +18,4 @@ def hello_route():
 
 
 if __name__ == "__main__":
-    app.run(debug = True, port=8080)
+    app.run(debug = True, port=9090)
