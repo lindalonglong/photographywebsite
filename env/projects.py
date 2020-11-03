@@ -2,24 +2,22 @@
 #next step would be to extract project data from a database
 def setup():
     #Person Data
-    name = "Team FruityCoders"
+    name = "FruityCoders"
     github = "https://github.com/lindalonglong/photographywebsite"
     linkedin = "https://www.linkedin.com/in/john-mortensen-1021/"
     youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber"
     twitter = "https://twitter.com/NighthawkCoding"
     source = {"name": name, "github": github, "linkedin": linkedin, "youtube": youtube, "twitter": twitter}
     #Project Data
-    project1 =  "Album"
+    project1 =  "Snake Game"
     projlinks1 = [
-        Link("Project Plan", "http://nighthawkcoders.cf/courses/python/"),
-        Link("Repl", "https://repl.it/@jmort1021/Python-Hello-Series#README.md"),
-        Link("Resources", "https://padlet.com/jmortensen7/csp2021")
+        Link("Project Plan", "https://drive.google.com/drive/folders/1nWi_hcXAjQ8D7ODZYDifADB7LVIkEd7D?usp=sharing"),
+        Link("Repl", "https://repl.it/@fruitycoders/SNAKE"),
     ]
     project2 =  "Photos"
     projlinks2 = [
         Link("Project Plan", "http://nighthawkcoders.cf/courses/python/"),
         Link("Repl", "https://repl.it/@jmort1021/Python-Web-Portfolio-Series?__cf_chl_jschl_tk__=cff72504752e89d50dea999ce10f859a17ecc294-1603026111-0-AdBP5FO-3nyUc_KVdPlNwvXM4MwUXy1HXHmbiJui1YBnUTPJZ8X4UBZVeYUXrnwRBJVvku9NftGYDWtp8lp4KovKX55R8S4twedzHpa2snwLwoAWaxuc4rgAa2l9J_rWqnNvUNcjJ8-p1V1RuTWV3lIy149lptozqAQdJnGj7PlcJxnu3YH22EXK-jl7bmdQmW9r_9fE1xp8J7sOFS3I1PMgmtoExcDIQSBBTnx1zQsyQGNS6wnuX72MAPnS_x3ZL1ETNRgFbVKpLsFJiR9ED1ErU54wyZYrUxEbZ_txHd7qY1T_s_lE6Ll8jYWHx-GulQ#main.py"),
-        Link("Resources", "https://padlet.com/jmortensen7/csptime1_2")
     ]
     #Project Objects
     proj1 = Project(project1, projlinks1)
