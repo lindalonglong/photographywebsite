@@ -20,9 +20,13 @@ def hello_route():
 def biographies_route():
     return render_template("biographies.html", projects=projects.setup())
 
+@app.route('/photos/')
+def photos_route():
+    return render_template("photos.html", projects=projects.setup())
+
 @app.route('/aboutus/')
 def aboutus_route():
     return render_template("aboutus.html", projects=projects.setup())
 
 if __name__ == "__main__":
-    app.run(debug = True, port=9090)
+    app.run(debug = True, port=8080)
